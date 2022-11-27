@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  font-family: sans-serif;
+}
+
+.fDiv {
+  display: block;
+  text-align: center;
+  box-sizing: border-box;
+  width: 250px;
+  height: 275px;
+  background-color: #0080FF;
+  padding-top: 60px;
+  border-radius: 5px;
+}
+
+form {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pDiv {
+  margin-top: 60px;
+  padding: 10px;
+}
+
+select {
+  border: 2px  solid black;
+  background-color: transparent;
+  padding: o 1em 0 0;
+  margin: 10px 0 0;
+  width: 100%;
+  border-radius: 5px;
+}
